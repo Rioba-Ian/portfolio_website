@@ -1,0 +1,172 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+section{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero{
+    background-color: #ddd;
+    height: 80vh;
+    color: rgb(14, 13, 13);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    padding: 80px;
+    background-color: #ddd;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-between;
+}
+
+li{
+    width: 150px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 0;
+    font-size: 30px;
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.hero-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120%;
+
+}
+
+.hero-text{
+    margin-left: 70px;
+    margin-bottom: 200px;
+}
+
+.button{
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+
+.button:hover{
+    background-color: rgb(238, 132, 18);
+}
+
+.button:active{
+    background-color: grey;
+    color: darkblue;
+}
+
+.socials{
+    padding-bottom: 0px;
+}
+
+.social{
+    margin: 20px;
+}
+
+.subsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.subsection-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.information{
+    margin: 30px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.headshot{
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px grey;
+    margin: auto;
+    padding: 5px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 300px;
+    height: 300px;
+    /* border-radius: 125px; */
+}
+
+hr{
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
